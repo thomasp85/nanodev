@@ -1,0 +1,17 @@
+Package: nanodev
+Type: Package
+Title: High Performance Graphic Devices Based on NanoVG
+Version: 0.1.0
+Authors@R: c(
+    person("Thomas Lin", "Pedersen", email = "thomasp85@gmail.com", role = c("aut", "cre")),
+    person("Mikko", "Mononen", role = c("aut"), comment = "Creator of NanoVG"))
+Maintainer: Thomas Lin Pedersen <thomasp85@gmail.com>
+Description: R provides many graphics devices for both putting graphics on the
+    screen and into files. 'nanodev' is a package that provide a range of 
+    graphic devices based on the 'NanoVG' C++ library which provides OpenGL
+    powered rendering and thus the potential for huge speed improvements.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 0.12.17)
+LinkingTo: Rcpp
